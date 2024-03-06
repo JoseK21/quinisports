@@ -8,7 +8,7 @@ export { default } from "next-auth/middleware";
 // }
  
 
-export const config = { matcher: ["/master/:path*", "/admin/:path*"] };
+export const config = { matcher: ["/master/:path*", "/admin/:path*", "/mi-cuenta"] };
 
 // export function middleware(request: NextRequest) {
 //   const pathname = request.nextUrl.pathname;
